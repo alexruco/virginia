@@ -26,8 +26,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "check_page=virginia.main:check_page_availability",
-            "check_http2=virginia.https_checker:check_http2_status",
+            "check_page=status_checker.main:check_page_availability",
         ],
     },
 )
