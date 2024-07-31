@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="virginia",
-    version="0.1.0",
+    version="0.1.1",
     author="Alex Ruco",
     author_email="alex@ruco.pt",
     description="A Python library for webpage status checking",
