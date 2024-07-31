@@ -1,4 +1,4 @@
-# status_checker/https_checker.py
+# virginia/https_checker.py
 
 import httpx
 

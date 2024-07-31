@@ -1,4 +1,4 @@
-# status_checker/main.py
+# virginia/main.py
 
 import httpx
 
