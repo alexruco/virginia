@@ -14,7 +14,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/alexruco/virginia",
-    packages=find_packages(),
+    packages=find_packages(include=['virginia', 'virginia.*']),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License",
@@ -26,7 +26,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "check_page=status_checker.main:check_page_availability",
+            "check_page=virginia.main:check_page_availability",
         ],
     },
 )
